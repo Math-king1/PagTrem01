@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Mobile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="icon">
+      🚆
+    </div>
+    <h2>Login</h2>
+
+    <label for="usuario">Usuário:</label>
+    <input type="text" id="usuario" placeholder="Digite aqui...">
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" placeholder="Digite aqui...">
+
+    <a href="#" class="forgot">Esqueceu sua senha?</a>
+
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox" id="lembrar">
+        <span class="slider round"></span>
+      </label>
+      <span>Lembrar senha</span>
+    </div>
+
+    <button onclick="fazerLogin()">Fazer login</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
